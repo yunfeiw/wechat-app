@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "i-swipeout": "../../dist/swipeout/index",
+    "i-card": "../../dist/card/index",
+    "i-alert": "../../dist/alert/index",
+    "i-divider": "../../dist/divider/index"
+  }
+}

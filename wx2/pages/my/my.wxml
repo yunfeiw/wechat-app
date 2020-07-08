@@ -1,0 +1,33 @@
+<view>
+  <i-card>
+    <view slot="content">
+      <view>
+        <view class="userInfo-i">
+          <open-data type="userAvatarUrl"></open-data>
+        </view>
+        <view class="userInfo-t">
+          <open-data type="userNickName"></open-data>
+        </view>
+        <i-divider content="" height='24'></i-divider>
+      </view>
+      <view>欢迎你的的登录！</view>
+      <i-divider content="" height='24'></i-divider>
+      <!-- <view>在你浏览该程序时，都是证明他的努力是值得的。</view> -->
+      <!-- <i-divider content="" height='24'></i-divider> -->
+      <!-- <view>(✿◡‿◡)毕竟还是菜鸟，浏览时出现问题（bug),那就哈哈哈~~~~</view> -->
+    </view>
+    <view slot="footer">
+      <!-- <i class="iconfont icon-xiaolian"></i> 他的邮箱：1669136244@qq.com -->
+    </view>
+  </i-card>
+</view>
+
+<view class="map">
+  <i-alert bindtouchstart="touchstart" bindtouchend="touchend">
+    {{mapmsg}}
+  </i-alert>
+  <view>
+    <map id="map" longitude="116.4145660400" latitude="40.0412178503" scale="14" controls="{{controls}}" bindcontroltap="controltap" markers="{{markers}}" bindmarkertap="markertap" polyline="{{polyline}}" bindregionchange="regionchange" show-location style="width: 100%; height: 300px;">
+    </map>
+  </view>
+</view>

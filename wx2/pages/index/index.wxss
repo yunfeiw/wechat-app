@@ -1,0 +1,95 @@
+/**index.wxss**/
+/* .userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.usermotto {
+  margin-top: 200px;
+} */
+
+
+/**index.wxss**/
+/* 容器 */
+movable-view{
+  z-index: 10;
+}
+.container-swiper{
+  width: 100%;
+  height: 100%;
+}
+
+/* 轮播 */
+.home-lbt{
+  width:100%;
+  height: 420rpx;
+}
+.slide-image{
+  width: 100%;
+}
+
+/* 二级nav */
+.scroll-nav-swiper{
+  height: 40rpx;
+}
+
+.scroll-view_H {
+  width:100vw;
+  height: 180rpx;
+  white-space: nowrap;
+  border-bottom: 1px solid;
+  box-sizing: border-box
+}
+.scroll-view-item_H{
+  height: 40rpx;
+  width: 20%;
+  text-align: center;
+  display: inline-block;
+}
+.scroll-view-item_H view{
+  font-size: 22rpx;
+  letter-spacing: 4rpx;
+}
+.scroll-view-item_H .iconfont{
+  margin:40rpx 0 10rpx;
+  font-size: 60rpx;
+}
+
+/* 书籍列表 */
+.list-item{
+  float: left;
+  width: 50vw;
+  height: 420rpx;
+  padding:40rpx 10vw;
+}
+.list-item:nth-child(odd){
+  border-right: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.list-item:nth-child(even){
+  border-left: 1px solid #ccc;
+  box-sizing: border-box;
+}
+.list-item image{
+  width: 100%;
+  height: 250rpx;
+}
+.list-name{
+  font-size: 28rpx;
+}
+.list-item-b{
+  border-bottom:1px solid #ccc;
+  box-sizing: border-box; 
+}

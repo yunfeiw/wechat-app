@@ -1,0 +1,10 @@
+<view>
+  <i-cell-group>
+    <block wx:for="{{itemList}}" wx:key="*this">
+      <i-cell style="text-align:center;">
+        <image src="{{item.url}}" mode="aspectFit" />
+        <i-notice-bar>{{item.tit}}</i-notice-bar>
+      </i-cell>
+    </block>
+  </i-cell-group>
+</view>

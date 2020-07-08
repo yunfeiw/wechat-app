@@ -1,0 +1,62 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/home/home",
+    "pages/test/test",
+    "pages/video/video",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "云飞",
+    "navigationBarTextStyle": "#fff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "image/sy2.png",
+        "selectedIconPath": "image/sy1.png"
+      },
+      {
+        "pagePath": "pages/logs/logs",
+        "text": "日志",
+        "iconPath": "image/log2.png",
+        "selectedIconPath": "image/log1.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "综合",
+        "iconPath": "image/zh2.png",
+        "selectedIconPath": "image/zh1.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "测试",
+        "iconPath": "image/cs2.png",
+        "selectedIconPath": "image/cs1.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "image/my2.png",
+        "selectedIconPath": "image/my1.png"
+      }
+    ],
+    "borderStyle": "black",
+    "selectedColor": "#fff",
+    "backgroundColor": "#000",
+    "position": "bottom"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "navigateToMiniProgramAppIdList": [
+    "wxe5f52902cf4de896"
+  ]
+}

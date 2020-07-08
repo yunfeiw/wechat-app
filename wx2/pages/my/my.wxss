@@ -1,0 +1,18 @@
+.map-tit{
+    font-size: 24rpx;
+}
+.map{
+    margin: 0 16px;
+}
+.i-alert{
+    padding:8px 0;
+}
+.userInfo-i,.userInfo-t{
+    display: inline-block;
+}
+.userInfo-i{
+    width: 100rpx;
+}
+.userInfo-t{
+    margin-left: 20px;
+}

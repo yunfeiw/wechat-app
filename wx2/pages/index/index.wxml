@@ -1,0 +1,46 @@
+<!--index.wxml-->
+<view class="container">
+  <swiper
+    class="home-lbt"
+    indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}"
+    interval="{{interval}}"
+    duration="{{duration}}"
+  >
+    <block wx:for="{{imgUrls}}" wx:key="{{index}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" width="355" height="150" />
+      </swiper-item>
+    </block>
+  </swiper>
+
+
+  <scroll-view class="scroll-view_H" scroll-x>
+    <block wx:for="{{iconFont}}" wx:key='{{index}}'>
+        <view class='scroll-view-item_H'>
+          <view class='iconfont {{item.icon}}'></view>
+          <view>{{item.name}}</view>
+        </view>
+    </block>
+
+  </scroll-view>
+
+  <view>
+    <block wx:for="{{qdbook}}" wx:key="*this">
+        <view class='list-item {{item.class}}'>
+          <image src="{{item.url}}" />
+          <view class='list-name'>{{item.text}}</view>
+        </view>
+    </block>
+  </view>
+  <!-- <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" mode="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view> -->
+</view>
